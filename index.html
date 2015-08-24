@@ -1,23 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    	
 		<title>Tom Fitzpatrick</title>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
 		<link type="text/css" rel="stylesheet" href="style.css" />
 		<script src="app.js"></script>
 	</head>
 	<body>
-		<div class="wrapper">
-			<div class="nav">
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#github">Github</a></li>
-					<li><a href="#codepen">Codepen</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
+			<div class="collapse" id="exCollapsingNavbar">
+			  <div class="navbar navbar-light bg-faded">
+				
+				<a class="navbar-brand" href="#">tFitz</a>
+				<ul class="nav navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="http://www.github.com/tfitz237">Github</a></li>
+					<li class="nav-item"><a class="nav-link" href="#codepen">Codepen</a></li>
+					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 				</ul>
 			</div>
-			<div class="content-wrapper">
-				Hello World
 			</div>
-		</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" style="position:fixed">
+    &#9776;
+  </button>
+			
+			<div class="container">
+				  <h1 class="display-3">tfitz</h1>
+				  <p class="lead">frontend, backend</p>
+				  <hr class="m-y-md">
+				  <p>Not much publicly, but much experience</p>
+				  <p class="lead">
+				    <a class="btn btn-primary btn-lg" href="https://www.github.com/tfitz237" role="button">github</a>
+				  </p>
+			</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 	</body>
 <html>
