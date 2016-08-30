@@ -14,10 +14,12 @@
                     if(currentPage.height() < $('.body').height()) {
                         $('.body').css('overflow-y', 'hidden');
                     }
+                    $('.navbar-toggle').click();
                     $('.body').animate({scrollLeft:scroll_left}, 800, function() {
                         if(currentPage.height() > $('.body').height()) {
                             $('.body').css('overflow-y', 'scroll');
-                        }                     
+                        }
+                        
                     });
                     $(currentLink).removeClass('active');
                     currentLink = $(this);
