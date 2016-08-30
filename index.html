@@ -7,125 +7,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>tomFitzpatrick</title>
         <link rel="stylesheet" href="lib/bootstrap.min.css" type="text/css" />
-        <style type="text/css">
-            body {
-                background: url("images/rando.jpg");
-                background-size: cover;
-                color: #ddddcc;
-            }
-            .content h1, .content span, .content a {
-                color: #d3d6c8;
-            }
-            .img-links {
-                height: 50px;
-                margin-left: 30%;
-            }
-
-            .footer {
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                margin-bottom: 0;
-                padding: 5px;
-            }
-            .content {
-            }
-  
-        </style>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" type='text/css' />
     </head>
     <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">tomFitzpatrick</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="link-nav active" data-link="about"><a href="#">About<span class="sr-only">(current)</span></a></li>
-            <li class="link-nav" data-link="portfolio"><a href="#">Portfolio</a></li>
-            <li class="link-nav" data-link="contact"><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <nav class="navbar navbar-default footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-3">
-                    <a href="http://github.com/tfitz237">
-                        <img src="images/icons/github.png" alt="..." class="img-responsive img-links">        
-                    </a>
-                </div>
-                <div class="col-xs-3">
-                    <a href="https://www.linkedin.com/in/tfitz237">
-                        <img src="images/icons/linkedin.png" alt="..." class="img-responsive img-links">
-                    </a>
-                </div>        
-                <div class="col-xs-3">
-                    <a href="https://www.instagram.com/tfitz237/">
-                        <img src="images/icons/instagram.png" alt="..." class="img-responsive img-links">
-                    </a>
-                </div>  
-                <div class="col-xs-3">
-                    <a href="https://soundcloud.com/fairly-efficient">
-                        <img src="images/icons/soundcloud.png" alt="..." class="img-responsive img-links">
-                    </a>
-                </div> 
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">tomFitzpatrick</a>
             </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="link-nav active" data-link="about"><a href="#">About<span class="sr-only">(current)</span></a></li>
+                <li class="link-nav" data-link="portfolio"><a href="#">Portfolio</a></li>
+                <li class="link-nav" data-link="contact"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="body">
+            <div class="wrapper">
+                    <div class="container-fluid content content-about">
+                        <div class="page-header">
+                          <h1>About</h1>
+                   
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p>Hello and welcome to my portfolio. I am a web developer who can utilize HTML / CSS / Javascript to it's fullest potential. </p>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading"><h3 class="panel-title">Front-End</h3></div>
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>HTML5</li>
+                                            <li>CSS3</li>
+                                            <li>Javascript</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Back-End</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <ul>
+                                            <li>NodeJS</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid content content-portfolio">
+                        <div class="page-header">
+                          <h1>Portfolio</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                 <div class="git-card"><div class="github-card" data-github="tfitz237/tfitz237.github.io" data-width="300" data-height="160" data-theme="default"></div></div>                
+                            </div>
+                            <div class="col-xs-12 c col-md-6 col-lg-4">
+                                 <div class="git-card"><div class="github-card" data-github="tfitz237/Thud-JS" data-width="300" data-height="160" data-theme="default"></div> </div>               
+                            </div>
+                            <div class="col-xs-12 col-md-6 col-lg-4">
+                                 <div class="git-card"><div class="github-card" data-github="tfitz237/pmllbot" data-width="300" data-height="160" data-theme="default"></div> </div>               
+                            </div>
+                            <div class="col-xs-12  col-md-6 col-lg-4">
+                                 <div class="git-card"><div class="github-card" data-github="tfitz237/pi-rfoutlet" data-width="300" data-height="160" data-theme="default"></div> </div>               
+                            </div>
+                        </div> 
+                
+                    </div>
+                    <div class="container-fluid content content-contact">
+                        <div class="page-header">
+                          <h1>Contact</h1>
+                        </div>
+                        <p>
+                          <a href="mailto:tfitz237@gmail.com">tfitz237@gmail.com</a>
+                        </p>
+                    </div>        
+            </div>            
         </div>
-    </nav>
-    <div class="container-fluid content content-about">
-        <div class="page-header">
-          <h1>About</h1>
-   
-        </div>
-              <p>Here i am, talking about my life.</p>
-    </div>
-    <div class="container-fluid content content-portfolio">
-        <div class="page-header">
-          <h1>Portfolio</h1>
-        </div>
-    </div>
-    <div class="container-fluid content content-contact">
-        <div class="page-header">
-          <h1>Contact</h1>
-        </div>
-    </div>
-
-
-    <script type="text/javascript" src="lib/jquery.min.js"></script>        
-    <script src="lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        /*global $*/
-        $(document).ready(function() {
-            var pages = ['about','portfolio','contact'];
-            var currentPage = 'about', direction1, direction2;
-                $('.content-contact').hide();
-                $('.content-portfolio').hide();
-            $('.link-nav').click(function(event) {
-                var newPage =  $(this).attr('data-link');
-                if (pages.indexOf(newPage) < pages.indexOf(currentPage)) { direction1 = "left"; direction2 = "right"; }
-                if (pages.indexOf(newPage) > pages.indexOf(currentPage)) { direction1 = "right"; direction2 = "left"; }
-                $('.content-' + currentPage).hide("slide", {'direction': direction1 }, function() {
-                    $('.content-'+newPage).show("slide", {'direction': direction2});  
-                    $(currentPage).removeClass('active');
-                    currentPage = newPage;
-                    $(this).addClass('active');
-                });
-            });
-        });
-        
-          
-      
-        
-    </script>
+        <nav class="navbar navbar-default footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <a href="http://github.com/tfitz237">
+                            <img src="images/icons/github.png" alt="..." class="img-responsive img-links">        
+                        </a>
+                    </div>
+                    <div class="col-xs-3">
+                        <a href="https://www.linkedin.com/in/tfitz237">
+                            <img src="images/icons/linkedin.png" alt="..." class="img-responsive img-links">
+                        </a>
+                    </div>        
+                    <div class="col-xs-3">
+                        <a href="https://www.instagram.com/tfitz237/">
+                            <img src="images/icons/instagram.png" alt="..." class="img-responsive img-links">
+                        </a>
+                    </div>  
+                    <div class="col-xs-3">
+                        <a href="https://soundcloud.com/fairly-efficient">
+                            <img src="images/icons/soundcloud.png" alt="..." class="img-responsive img-links">
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </nav>    
+        <script type="text/javascript" src="lib/jquery.min.js"></script>        
+        <script src="lib/jquery-ui.js"></script>
+        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+        <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

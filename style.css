@@ -1,0 +1,65 @@
+body {
+                font-family: Roboto, Arial;
+                background: url("images/rando.jpg");
+                background-size: cover;
+                color: #ddddcc;
+                overflow: hidden;
+                display:flex;
+                flex-direction: column;
+                height: 100vh;
+            }
+            .content h1, .content span, .content a {
+                color: #d3d6c8;
+            }
+            .nav {
+            }
+            .body {
+                width: 100%;
+                flex: auto;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            .wrapper {
+                position: relative;
+                flex: auto;
+                width: 300%;
+
+
+            }
+            .content {
+                float:left;
+                width: 33.3%;
+            }
+            .img-links {
+                height: 50px;
+                margin-left: 30%;
+            }
+
+            .footer {
+                align-self: flex-end;
+                bottom: 0;
+                width: 100%;
+                margin-bottom: 0;
+                padding: 5px;
+            }
+            .git-card {
+                margin-left: calc(50% - 150px);
+            }
+            .panel {
+                background: #3e3f3a;
+            }
+            .panel-default>.panel-heading {
+                background: #5d5f57;
+            }
+            .panel-default {
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.25) 2px 4px;
+            }
+            .panel-default .panel-heading .panel-title {
+                text-transform: none;
+                font-size: initial;
+                color: #d3d6c8;
+            }
+            .border-bottom {
+                border-bottom: 1px solid #f8f5f0;
+            }
